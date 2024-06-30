@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "547986832378",
+    "firebase_url": "https://zandiakt-default-rtdb.firebaseio.com",
+    "project_id": "zandiakt",
+    "storage_bucket": "zandiakt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547986832378:android:d88c9870c1d2c356fd8243",
+        "android_client_info": {
+          "package_name": "com.leca.zandiakt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547986832378-gpgpla5ptog3g2oui375lvjl5t0asi7c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.leca.zandiakt",
+            "certificate_hash": "1ce5a3ab0b0544636087a7dc6b6a152909a00386"
+          }
+        },
+        {
+          "client_id": "547986832378-c075ckdg0o8a2ur84oetg978t2ko976h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6zJlO1rQuELyPse4eMTo785Kv02GB17g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547986832378-c075ckdg0o8a2ur84oetg978t2ko976h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

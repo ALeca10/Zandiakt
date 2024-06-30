@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Paleta de colores de una sandía (rojo y verde) -->
+    <color name="black">#FF000000</color> <!-- Esto puede permanecer sin cambios -->
+    <color name="white">#FFFFFFFF</color> <!-- Esto puede permanecer sin cambios -->
+    <color name="g_red_watermelon">#FF3B30</color> <!-- Rojo sandía -->
+    <color name="g_green_watermelon">#34C759</color> <!-- Verde sandía -->
+    <color name="g_dark_green_watermelon">#007A33</color> <!-- Verde oscuro sandía -->
+    <color name="g_light_green_watermelon">#A8E6A3</color> <!-- Verde claro sandía -->
+
+    <!-- Colores de apoyo para advertencias, éxito, notificaciones -->
+    <color name="g_warning">#FFA500</color> <!-- Naranja para advertencias -->
+    <color name="g_success">#28A745</color> <!-- Verde para éxito -->
+    <color name="g_notification">#17A2B8</color> <!-- Azul para notificaciones -->
+    <color name="g_error">#DC3545</color> <!-- Rojo para errores -->
+    <color name="g_info">#17A2B8</color> <!-- Azul para información -->
+
+    <!-- Colores de tonalidades grises para fondo de pantalla -->
+    <color name="g_gray700">#666666</color> <!-- Gris oscuro -->
+    <color name="g_black">#171717</color> <!-- Casi negro -->
+    <color name="g_gray500">#969899</color> <!-- Gris medio -->
+    <color name="g_gray200">#E0E0E0</color> <!-- Gris claro -->
+    <color name="g_gray100">#F5F5F5</color> <!-- Gris muy claro -->
+    <color name="g_card_background">#FAFDFF</color> <!-- Fondo de tarjeta -->
+    <color name="g_search_and_icons">#FAFBFC</color> <!-- Fondo de búsqueda e íconos -->
+    <color name="g_line">#E9EAEC</color> <!-- Color de línea -->
+</resources>

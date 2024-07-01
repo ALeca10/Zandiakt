@@ -48,6 +48,7 @@
 
     <!-- EditText style -->
     <style name="editText">
+        <item name="android:textColorHint">@color/g_gray500</item>
         <item name="android:background">@drawable/gray_background</item>
         <item name="android:gravity">center</item>
         <item name="singleLine">true</item>

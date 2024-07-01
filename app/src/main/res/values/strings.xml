@@ -4,6 +4,7 @@
     <string name="quality">"Viste tu mejor versión,\n hoy y siempre."</string>
     <string name="Welcome">Bienvenido!</string>
     <string name="collection">Descubre nuestra última colección\n única en su estilo.</string>
+    <string name="test">Success</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>

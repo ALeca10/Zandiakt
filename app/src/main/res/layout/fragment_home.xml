@@ -1,15 +1,190 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".fragments.HomeFragment">
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@color/g_gray200">
 
     <TextView
+        android:id="@+id/tvWelcomeMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Bienvenido al Inicio"
-        android:textSize="24sp"
-        android:padding="16dp"/>
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:padding="15dp"
+        android:layout_gravity="left"/>
 
-</FrameLayout>
+    <!-- Primer Producto -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/ivProductImage1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/casaca_negra"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingStart="16dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/tvProductName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Casaca Negra"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvProductPrice1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S/. 50.00"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDetails1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_black_background"
+            android:text="ver detalles"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <!-- Segundo Producto -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/ivProductImage2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/polo_negro"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:paddingStart="16dp">
+
+            <TextView
+                android:id="@+id/tvProductName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Polo Negro"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvProductPrice2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S/. 60.00"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDetails2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_black_background"
+            android:text="ver detalles"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <!-- Tercer Producto -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/ivProductImage3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/polera_blanca"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:paddingStart="16dp">
+
+            <TextView
+                android:id="@+id/tvProductName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Polera Blanca"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvProductPrice3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S/. 70.00"
+                android:textColor="@color/black"/>
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDetails3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_black_background"
+            android:text="ver detalles"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/bottom_navigation" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-1dp"
+            app:menu="@menu/bottom_nav_menu" />
+
+    </RelativeLayout>
+
+</LinearLayout>

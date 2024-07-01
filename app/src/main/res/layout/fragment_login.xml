@@ -65,7 +65,8 @@
             style="@style/editText"
             android:hint="Email"
             android:inputType="textEmailAddress"
-            android:layout_marginTop="50dp" />
+            android:layout_marginTop="50dp"
+            android:textColor="@android:color/black"/>
 
         <EditText
             android:id="@+id/etPasswordLogin"
@@ -77,14 +78,15 @@
             style="@style/editText"
             android:hint="Contraseña"
             android:inputType="textPassword"
-            android:layout_marginTop="15dp" />
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/black"/>
 
         <TextView
             android:id="@+id/tvForgotPasswordLogin"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             style="@style/h2"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="30dp"
             android:gravity="center"
             android:text="¿Olvidaste tu contraseña?"
             android:textColor="@color/black"

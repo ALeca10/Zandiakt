@@ -65,7 +65,8 @@
             style="@style/editText"
             android:hint="Nombres"
             android:inputType="textPersonName"
-            android:layout_marginTop="40dp" />
+            android:layout_marginTop="40dp"
+            android:textColor="@android:color/black"/>
 
         <EditText
             android:id="@+id/etLastNameRegister"
@@ -77,7 +78,9 @@
             style="@style/editText"
             android:hint="Apellidos"
             android:inputType="textPersonName"
-            android:layout_marginTop="15dp" />
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/black"/>
+
         <EditText
             android:id="@+id/etEmailRegister"
             android:layout_width="0dp"
@@ -88,7 +91,8 @@
             style="@style/editText"
             android:hint="Email"
             android:inputType="textEmailAddress"
-            android:layout_marginTop="15dp" />
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/black"/>
 
         <EditText
             android:id="@+id/etPasswordRegister"
@@ -100,7 +104,8 @@
             style="@style/editText"
             android:hint="Contraseña"
             android:inputType="textPassword"
-            android:layout_marginTop="15dp" />
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/black"/>
 
         <br.com.simplepass.loadingbutton.customViews.CircularProgressButton
             android:id="@+id/buttonRegisterRegister"
